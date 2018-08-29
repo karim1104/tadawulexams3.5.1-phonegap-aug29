@@ -2,22 +2,22 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.moodle.cisionline"
         versionCode = "35100"
-        android-versionCode="35100"
-        version   = "3.5.1">
-    <name>Moodle</name>
+        android-versionCode="35320"
+        version   = "3.5.3.2">
+  <name>Tadawul Exams</name>
 
     <description>
-        Moodle official app
+        Tadawul Exams official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+     <author href="https://www.TadawulExams.com" email="admin@tadawul.academy">
+        Tadawul Academy FZE
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.5.11</string>
+        <string>3.5.3.2</string>
     </edit-config>
 
     <gap:platform name="ios" />
@@ -166,9 +166,7 @@
     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
         <string>We need camera access to take pictures so you can attach them as part of your submissions.</string>
     </edit-config>
-    <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-        <string>We need microphone access to record sounds so you can attach them as part of your submissions.</string>
-    </edit-config>
+    
     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
         <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
     </edit-config>
