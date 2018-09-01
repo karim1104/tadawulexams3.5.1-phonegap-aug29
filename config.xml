@@ -4,8 +4,8 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.cisionline"
         versionCode = "35100"
-        android-versionCode="35320"
-        version   = "3.5.3.2">
+        android-versionCode="35321"
+        version   = "3.5.3.2.1">
   <name>Tadawul Exams</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.5.32</string>
+        <string>3.5.321</string>
     </edit-config>
 
     <gap:platform name="ios" />
